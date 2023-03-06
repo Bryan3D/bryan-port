@@ -1,7 +1,9 @@
 import React from 'react'
 import './header.css'
-import RTA from './RTA.jsx'
-import ME from '../../assets/Bryan_Quero_Square-removebg.png'
+import '../../styles.css'
+import RTA from './RTA.js'
+import Socialmedia from './socialmedia.js'
+import YO from '../../../src/assets/B.png'
 
 const Header = () => {
   return (
@@ -11,20 +13,20 @@ const Header = () => {
         
         <h5>Hello I'm</h5>
         <h1>Bryan A Quero</h1>
-        <h5>MERN | XR Developer</h5>
+        <h3 className='text-light'>MERN Fullstack | XR Developer</h3>
         <RTA />
+        <Socialmedia />
 
         <div className="me">
-          <img src={ME} alt="Bryan Quero"/>
+          <img src={YO} alt="Bryan Quero" className='yo'/>
         </div>
         
-      
-          <a href="#contact" className='_scrollDN'>Scroll Down</a>
+          <a href="#contact" className='_scrollDN'>Scroll Down</a> 
       
      
       </div>
       
-      
+
     </header>
   )
 }

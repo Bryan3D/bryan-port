@@ -3,9 +3,9 @@ import Resume from '../../assets/BryanResume.pdf'
 
 const RTA = () => {
   return (
-    <div children="rta">
+    <div className="rta">
       <a href={Resume} download className='btn'>Copy of Resume</a>
-      <a href="#contact" className='btn btn-primary'>Connect with ME!</a>
+      <a href="#contact" className='btn btn-primary'>Req Inf!</a>
       
     </div>
   )

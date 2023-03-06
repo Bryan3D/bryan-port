@@ -4,12 +4,12 @@
 
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+  --color-bg: #131826;
+  --color-bg-variant: #393D49;
+  --color-primary: rgba(23, 62, 173, 1);
   --color-primary-variant: rgba(77,181,255,0.4);
   --color-white: #fff;
-  --color-light: rgb(112, 112, 112, 0.5);
+  --color-light: rgba(212, 220, 217, 1);
 
   --container-with-lg: 75%;
   --container-with-md: 85%;
@@ -52,11 +52,11 @@ html{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 section {
@@ -91,17 +91,17 @@ a{
 }
 
 a:hover{
-  color: var(--color-bg);
+  color: var(--color-white);
+
 }
 
 .btn{
 
   width: max-content;
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.2rem;
   border-radius: 0.5rem;
-  border: 0.1rem;
-  border-style: solid;
+  border: 1px solid var(--color-primary);
   color: var(--color-primary);
   transition: var(--transition);
   cursor: pointer;
@@ -130,7 +130,7 @@ img{
   object-fit: cover;
 }
 
-/* Media queries for large sizes equipment */
+/* Media Queries for Large Sizes Equipment */
 
 @media screen and (max-width: 1440px) {
   .container {
