@@ -1,7 +1,7 @@
 
 header{
-  height: 150vh;
-  padding-top: 7rem;
+  height: 100%auto;
+  padding-top: 5rem;
   overflow: hidden;
   
 }
@@ -11,43 +11,46 @@ header{
   height: 100%;
   text-align: center;
 }
-
-.rta{
-  margin-top: 3.0rem;
+/* Top Bottons  */
+.topBtn{
+  margin-top: 1.0rem;
   display: flex;
   justify-content: center;
   gap: 1.0rem;
 }
 
-/* Top social icons */
-._topsocials {
+/* Social icons */
+.topsocials {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.01rem;
+  color: var(--color-light);
+  gap: 0.8rem;
   position: absolute;
   right: 0;
-  bottom: 60rem;
+  bottom: 25rem;
   scale: 2;
   
 }
-/* Top Link */
-._topsocials a{
-  color: var(--color-light);
-  transition: var(--transition);
+
+.topsocials:hover{
+  color: var(--color-primary);
+  cursor: pointer;
 }
 
-/* Image */
+
+
+/* Image Format */
 .yo{
  
-  background: var(--color-primary);
+  background:linear-gradient(var(--color-primary),transparent) ;
   color: var(--color-bg);
   border-color: transparent;
-  border-radius: 50%;
   scale: .75;
-  border: 3px solid var(--color-primary);
-  border-color: var(--color-light);
-  filter: drop-shadow(0.35rem 0.35rem 1.5rem rgba(0, 0, 0, 1));;
+  border-radius: 0 12rem;
+  border: 3px solid var(--color-light);
+  filter: drop-shadow(0.35rem 0.35rem 1.5rem rgba(0, 0, 0, 1));
+  left: calc(50% - 11rem);
 }
 
 /* Scroll Down */
