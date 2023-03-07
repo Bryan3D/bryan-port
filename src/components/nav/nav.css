@@ -18,8 +18,22 @@ nav {
   width: 100%;
   display: flex;
   gap:0.5rem;
-  border-radius: 3rem;
+  border-radius: 6rem;
   backdrop-filter: blur(15px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+nav a {
+  background: transparent;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  display: flex;
+  color: var(--color-primary);
+  
+  transform: scale(1.25);
+}
+
+nav a.active {
+  background: rgba(61, 61, 61, 0.2);
+  color: var(--color-white);
+}

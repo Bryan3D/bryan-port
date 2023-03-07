@@ -1,0 +1,23 @@
+.portfolio-container{
+display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.portfolio-img {
+  grid-area: 1 / 2 / 4/ 5;
+}
+.portfolio-img:hover {
+  color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+  .about-img {
+    height: 68vh;
+
+  }
+
+}
+

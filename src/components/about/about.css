@@ -5,3 +5,64 @@ p,.text-ligh{
   text-indent: 3%;
   text-align: justify;
 }
+
+#about{
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 5%;
+  background-color: var(--color-dark);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img{
+  width: 25%;
+  aspect-ratio:  1/1;
+  border-radius: 25rem;
+  margin: 1rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  background: transparent;
+  box-shadow: 0 0 0 0.1rem var(--color-light);
+}
+
+.about-img:hover{
+  transform: rotate(0deg);
+  box-shadow: 0 0 0 0.6rem var(--color-primary);
+  transition: var(--transition);
+}
+
+/* Media queries for Mid sizes equipment */
+
+@media screen and (max-width: 1024px) {
+  .about-img {
+    height: 68vh;
+    
+  }
+
+}
+
+
+
+
+/* Media queries for small sizes equipment */
+
+@media screen and (max-width: 1024px) {
+
+  header {
+    height: 100vh;
+  }
+
+  .topsocials,
+  ._scrollDN {
+    display: none;
+
+  }
+
+
+}
