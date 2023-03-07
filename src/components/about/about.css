@@ -1,0 +1,7 @@
+p,.text-ligh{
+  font-size: 1.2rem;
+  margin: 1.5rem;
+  color: var(--color-light);
+  text-indent: 3%;
+  text-align: justify;
+}

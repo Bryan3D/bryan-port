@@ -1,21 +1,21 @@
 import React from 'react'
 import './nav.css'
+import { RiHomeHeartLine, RiFileUserLine } from 'react-icons/ri'
+import { FaArtstation } from 'react-icons/fa'
+import { GrResume } from 'react-icons/gr'
+import { MdContactMail } from 'react-icons/md'
 
 const nav = () => {
   return (
-    <div>
-      <h1 class="title"> Navbar</h1>
-      <nav className="nav">
-        <lu>
-
-          <li className='list-nav-item'>About Me!</li>
-          <li className='list-nav-item'>Portfolio</li>
-          <li className='list-nav-item'>Resume</li>
-          <li className='list-nav-item'>Contac Me!</li>
-
-        </lu>
+      <nav>
+        <a href="#"><RiHomeHeartLine/></a>
+        <a href="#about"><RiFileUserLine/></a>
+        <a href="#porfolio"><FaArtstation/></a>
+        <a href="#resume"><GrResume/></a>
+      <a href="#contact"><MdContactMail/></a>
+        
       </nav> 
-    </div>
+   
   )
 }
 

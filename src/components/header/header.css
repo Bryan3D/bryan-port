@@ -6,6 +6,8 @@ header{
   
 }
 
+/* Header Container */
+
 .header-container{
   position: relative;
   height: 100%;
@@ -21,12 +23,12 @@ header{
 
 /* Social icons */
 .topsocials {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: var(--color-light);
   gap: 0.8rem;
-  position: absolute;
   right: 0;
   bottom: 25rem;
   scale: 2;
@@ -51,12 +53,48 @@ header{
   border: 3px solid var(--color-light);
   filter: drop-shadow(0.35rem 0.35rem 1.5rem rgba(0, 0, 0, 1));
   left: calc(50% - 11rem);
+  overflow: hidden;
+  padding: 2.5rem 0 0 0;
+  
 }
 
 /* Scroll Down */
 
 ._scrollDN{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  position: absolute;
+  left: -4.0rem;
+  bottom: 27rem;
+  color: var(--color-light);
+  font-weight: 300;
+  font-size: 1.5rem;
+  animation: scroll 1.5s infinite;
+  transform: rotate(-90deg);
+}
+
+
+/* Media queries for Mid sizes equipment */
+
+@media screen and (max-width: 1024px) {
+  header{
+    height: 68vh;
+  }  
+    
+  }
+
+  
+
+
+/* Media queries for small sizes equipment */
+
+@media screen and (max-width: 600px) {
+
+  header{
+    height: 100vh;
+  }
+  .topsocials, ._scrollDN {
+    display: none;
+
+  }
+
+  
 }
