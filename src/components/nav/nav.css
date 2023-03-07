@@ -1,0 +1,25 @@
+
+/* Navigation Floatting Bar */
+nav {
+  /* height: 5vh; */
+  max-width: max-content;
+  display: block;
+  padding: 0.7rem;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 1.0rem 2.0rem;
+  background: rgba(0, 0, 0, 0.165);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+  position: fixed;
+  left:50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  gap:0.5rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
