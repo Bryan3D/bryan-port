@@ -6,24 +6,40 @@ import './skills.css';
 
 const skills = () => {
   const skills = [
-    { name: 'HTML', value: 90 },
-    { name: 'CSS', value: 80 },
-    { name: 'JavaScript', value: 75 },
-    { name: 'React', value: 80 },
-    { name: 'Node.js', value: 65 },
-    { name: 'MySQL', value: 60 },
-    { name: 'MongoDB', value: 60 },
-    { name: 'MERN', value: 60 },
-    { name: 'Python', value: 60 },
-    { name: 'C++', value: 60 },
-    { name: 'C#', value: 60 },
-    { name: 'Unreal Engine', value: 90 },
+    {type: 'HTML', level: 90 },
+    {type: 'CSS', level: 80 },
+    {type: 'JavaScript', level: 75 },
+    {type: 'React', level: 80 },
+    {type: 'Node.js', level: 65 },
+    {type: 'MySQL', level: 60 },
+    {type: 'MongoDB', level: 60 },
+    {type: 'NoSQL', level: 60 },
+    {type: 'Python', level: 60 },
+    {type: 'C++', level: 60 },
+    {type: 'C#', level: 60 },
+    {type: 'Unreal Engine', level: 90 },
+    {type: 'UNITY Engine', level: 90 },
+    {type: 'Blender', level: 90 },
+    {type: 'Adobe Photoshop', level: 90 },
+    
   ];
+
+  const colors = {
+    bar: "rgb(57, 174, 232)",
+    title: {
+      text: "#E4E9E7",
+      background: "rgba(77,181,255,0.4)"
+    }
+  };
+  
 
 
   return (
-    <section>
-      <SkillBar skills={skills} />
+    <section id='skills'>
+    
+        <h5>Softwares Skills of Bryan A Quero</h5>
+        <h2>Skills</h2>
+      <SkillBar skills={skills} height={'4vh'} colors={colors} />
     </section>
   )
 }
