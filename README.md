@@ -8,10 +8,10 @@
   - [Table of Contents](#table-of-contents)
   - [Project description](#project-description)
   - [Installation and Test Instructions](#installation-and-test-instructions)
-  - [Progressive Web Applications (PWA): Text Editor Demo Video and Images](#progressive-web-applications-pwa-text-editor-demo-video-and-images)
-  - [Heroku Progressive Web Applications (PWA): Text Editor URL Link](#heroku-progressive-web-applications-pwa-text-editor-url-link)
+  - [React Portfolio Creation Demo Video and Images](#react-portfolio-creation-demo-video-and-images)
+  - [Heroku React Portfolio Creation URL Link](#heroku-react-portfolio-creation-url-link)
 - [Click Here](#click-here)
-  - [Progressive Web Applications (PWA): Text Editor URL Link](#progressive-web-applications-pwa-text-editor-url-link)
+  - [React Portfolio Creation URL Link](#react-portfolio-creation-url-link)
   - [Inquire](#inquire)
   - [MIT License](#mit-license)
 
@@ -51,23 +51,23 @@ This project will provide individuals with a platform to showcase their skills a
 - Heroku
 
 ---
+  
 
 
-
-## Progressive Web Applications (PWA): Text Editor Demo Video and Images
+## React Portfolio Creation Demo Video and Images
 ---
 
 
 
 
 ---
-## Heroku Progressive Web Applications (PWA): Text Editor URL Link
+## Heroku React Portfolio Creation URL Link
 [Click Here](https://the-progressive-web-app.herokuapp.com/)
 =======
 
 
 
-## Progressive Web Applications (PWA): Text Editor URL Link
+## React Portfolio Creation URL Link
 [Click Here](https://bryan3d.github.io/Progressive-Web-Applications-PWA-Text-Editor/)
 
 

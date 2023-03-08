@@ -4,6 +4,7 @@ import './header.css'
 
 const RTA = () => {
   return (
+    // Resume and contact me button
     <div className="topBtn">
       <a href={Resume} download className='btn text-light'>My Resume</a>
       <a href="#contact" className='btn btn-primary text-light'>More Info!</a>

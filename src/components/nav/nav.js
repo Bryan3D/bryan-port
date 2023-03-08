@@ -11,6 +11,7 @@ import { useState } from 'react'
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
+    // Nav bar for the page
       <nav>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><RiHomeHeartLine/></a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><RiFileUserLine /></a>

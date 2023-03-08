@@ -5,6 +5,7 @@ import '../../styles.css';
 
 const footer = () => {
   return (
+    // Footer links Area for the page 
     <footer id='foot'>
       <ul className="footer-list">
         <li><a href='#' className='text-light'>Home</a></li>
@@ -13,7 +14,7 @@ const footer = () => {
         <li><a href='#skills' className='text-light'>Skills</a></li>
         <li><a href='#contact' className='text-light'>Contact Me</a></li>
       </ul>
-
+{/* copyright area */}
       <div className="footer_copyright" >
         <large className='text-light'>&copy; <h6 className='text-light'> Bryan A Quero. 2023 All rights reserved.</h6></large>
       </div>

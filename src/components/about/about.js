@@ -5,6 +5,7 @@ import ME from '../../assets/portfolio/portf-A.jpeg'
 
 const About = () => {
   return (
+    // Section about me
     <section id='about'>
       <h1>About Me!</h1>
       <div className='about-img'>
