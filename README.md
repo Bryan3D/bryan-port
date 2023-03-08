@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Progressive Web Applications (PWA): Text Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+- [Progressive Web Applications (PWA): Text Editor](#progressive-web-applications-pwa-text-editor)
+  - [Table of Contents](#table-of-contents)
+  - [Project description](#project-description)
+  - [Installation and Test Instructions](#installation-and-test-instructions)
+  - [Progressive Web Applications (PWA): Text Editor Demo Video and Images](#progressive-web-applications-pwa-text-editor-demo-video-and-images)
+  - [Heroku Progressive Web Applications (PWA): Text Editor URL Link](#heroku-progressive-web-applications-pwa-text-editor-url-link)
+- [Click Here](#click-here)
+  - [Progressive Web Applications (PWA): Text Editor URL Link](#progressive-web-applications-pwa-text-editor-url-link)
+  - [Inquire](#inquire)
+  - [MIT License](#mit-license)
 
-### `npm start`
+## Project description
+---
+<p>
+The React Portfolio is a web application that allows users to create their personal portfolios using React.js. It is a platform for individuals to showcase their skills, projects, and achievements to potential clients or employers.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project will have the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Home Page: This will be the landing page of the website, which will contain the user's name, profile picture, and a brief introduction.
 
-### `npm test`
+- About Me: The About Me page will provide a detailed description of the user's education, work experience, and other relevant information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Skills: This section will display the user's skillset, such as programming languages, tools, and technologies that the user is proficient in.
 
-### `npm run build`
+- Projects: Users can add their projects to this section, along with a description, screenshots, and links to the project repositories.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Contact Me: This page will contain a form that allows visitors to contact the user for potential work opportunities or collaborations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- The project will be built using React.js and will be styled with CSS. It will also use third-party libraries such as React Router, React Skillbars and React Bootstrap to enhance the user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The React Portfolio will be deployed on a web server, making it accessible to the public. Users will be able to create an account to edit and update their portfolios easily.
 
-### `npm run eject`
+This project will provide individuals with a platform to showcase their skills and experience to potential employers, leading to better career opportunities. Additionally, it will be an excellent tool for freelancers to market themselves and their services to clients.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation and Test Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+- Node
+- React 
+- Webpack
+- Heroku
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Progressive Web Applications (PWA): Text Editor Demo Video and Images
+---
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
+## Heroku Progressive Web Applications (PWA): Text Editor URL Link
+[Click Here](https://the-progressive-web-app.herokuapp.com/)
+=======
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Progressive Web Applications (PWA): Text Editor URL Link
+[Click Here](https://bryan3d.github.io/Progressive-Web-Applications-PWA-Text-Editor/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Inquire
+
+---
+Feel free to contact me at bryanq2008@live.com with any questions about this project. Visit <https://github.com/Bryan3D> to see more of my projects.
+
+## MIT License
+
+---
+
+Copyright (c) [2023] [Progressive Web Applications (PWA): Text Editor by Bryan A Quero]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
