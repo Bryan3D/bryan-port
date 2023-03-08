@@ -8,13 +8,13 @@ nav {
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  padding: 1.0rem 2.0rem;
+  padding: 0.1rem 2.0rem;
   background: rgba(0, 0, 0, 0.165);
   backdrop-filter: blur(10px);
   z-index: 2;
   position:fixed;
   left:50%;
-  bottom:1%;
+  bottom:5%;
   transform: translateX(-50%);
   width: 100%;
   display: flex;
@@ -26,11 +26,11 @@ nav {
 
 nav a {
   background: transparent;
-  padding: 1.5rem;
+  padding: 1.0rem;
   border-radius: 50%;
   display: flex;
   color: var(--color-primary);
-  transform: scale(1.25);
+  transform: scale(1.0);
 }
 
 nav a.active {

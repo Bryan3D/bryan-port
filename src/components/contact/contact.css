@@ -3,6 +3,9 @@
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+  left: 50%;
+  top: 20%;
+  transform: translateX(35%);
 }
 
 .contact__options {
@@ -40,7 +43,7 @@
   font-size: 0.8rem;
 }
 
-/* ================= FORM ================== */
+/*  FORM  */
 form {
   display: block;
   flex-direction: column;
