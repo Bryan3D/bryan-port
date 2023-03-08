@@ -13,6 +13,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
 
+
 const App = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const App = () => {
       <Nav/>
       <About />
       <Portfolio />
-      <Skills/>
+      <Skills />
       <Contact />
       <Footer />
       <PartclesBG />
