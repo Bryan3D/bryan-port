@@ -19,18 +19,7 @@ const portfolio = () => {
     <section id='portfolio'>
       <h5>A Portfolio of Bryan A Quero Work</h5>
       <h2>Portfolio</h2>
-      {/* image #1 */}
-      {/* <div className='portfolio-container'>
-        <article className='portfolio-item'> 
-          <div className='portfolio-img'>
-            <img src={IMG1} alt='Portfolio 1' />
-          </div>
-          <div className='portfolio-desc'>
-            <h3>Portfolio 1</h3>
-            <p>Adipisicing in fugiat irure officia excepteur quis elit. Sunt cupidatat esse consequat anim minim. </p>
-          </div>
-        </article>
-      </div> */}
+   
 
       <ul className='portfolio-container'>
         <li className='portfolio-item'>

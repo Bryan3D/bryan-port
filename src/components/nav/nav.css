@@ -1,7 +1,7 @@
 
 /* Navigation Floatting Bar */
 nav {
-  /* height: 5vh; */
+  height: 5vh;
   max-width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
@@ -14,7 +14,7 @@ nav {
   z-index: 2;
   position:fixed;
   left:50%;
-  bottom:5%;
+  bottom:0.9%;
   transform: translateX(-50%);
   width: 100%;
   display: flex;
@@ -31,6 +31,9 @@ nav a {
   display: flex;
   color: var(--color-primary);
   transform: scale(1.0);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  
 }
 
 nav a.active {

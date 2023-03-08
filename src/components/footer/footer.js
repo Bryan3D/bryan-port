@@ -1,10 +1,10 @@
 import React from 'react'
 import './footer.css';
-import '../../styles.css';
+
 
 const footer = () => {
   return (
-    <footer>
+    <footer id='foot'>
       <ul className="footer-list">
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About Me</a></li>
@@ -14,7 +14,7 @@ const footer = () => {
       </ul>
 
       <div className="footer_copyright">
-        <small>&copy; Bryan A Quero. 2023 All rights reserved.</small>
+        <large>&copy; Bryan A Quero. 2023 All rights reserved.</large>
       </div>
     </footer>
   )

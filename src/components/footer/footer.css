@@ -3,8 +3,8 @@ footer {
   padding: 1rem 0;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 7rem;
-  bottom: 50%;
+  margin-top: 1rem;
+  bottom: 0;
 }
 
 footer a {
@@ -21,9 +21,19 @@ footer a {
   margin: 0 auto 3rem;
 }
 
+._scrollDN {
+  position: absolute;
+  left: -1.1rem;
+  color: var(--color-light);
+  font-weight: 300;
+  font-size: 1.5rem;
+  animation: scroll 1.5s infinite;
+  transform: rotate(-90deg);
+}
+
 
 .footer_copyright {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   color: var(--color-bg);
 }
 

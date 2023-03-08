@@ -39,7 +39,12 @@ export const ContactUs = () => {
       <button type="submit" className='btn btn-primary'>Send Message</button>
       </form>
       </div>
+      <a href="#foot" className='_scrollDN2'>Scroll Down</a> 
     </section>
+
+
+
+    
     
   );
 };
