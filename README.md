@@ -1,10 +1,10 @@
-# Progressive Web Applications (PWA): Text Editor
+# React Portfolio Creation
 
 ## Table of Contents
 
 ---
 
-- [Progressive Web Applications (PWA): Text Editor](#progressive-web-applications-pwa-text-editor)
+- [React Portfolio Creation](#react-portfolio-creation)
   - [Table of Contents](#table-of-contents)
   - [Project description](#project-description)
   - [Installation and Test Instructions](#installation-and-test-instructions)
@@ -83,7 +83,7 @@ Feel free to contact me at bryanq2008@live.com with any questions about this pro
 
 ---
 
-Copyright (c) [2023] [Progressive Web Applications (PWA): Text Editor by Bryan A Quero]
+Copyright (c) [2023] [React Portfolio Creation by Bryan A Quero]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
