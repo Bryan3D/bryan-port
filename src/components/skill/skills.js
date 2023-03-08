@@ -20,6 +20,9 @@ const skills = () => {
     {type: 'C#', level: 85 },
     {type: 'Unreal Engine', level: 90 },
     {type: 'UNITY Engine', level: 90 },
+    {type: 'Virtual Reality(VR)', level: 90 },
+    {type: 'Mixing Reality(MR)', level: 90 },
+    {type: 'Augmented Reality(MR)', level: 80 },
     {type: 'Blender', level: 90 },
     {type: 'Adobe Photoshop', level: 90 },
     
