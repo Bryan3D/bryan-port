@@ -10,11 +10,9 @@
   --color-primary-variant: rgba(77,181,255,0.4);
   --color-white: #fff;
   --color-light: #E4E9E7;
-
   --container-with-lg: 75%;
   --container-with-md: 85%;
   --container-with-sm: 90%;
-
   --transition: all 0.3s ease;
 
 }

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components';
 import './contact.css';
+import '../../styles.css'
 
 export const ContactUs = () => {
   const form = useRef();
@@ -22,21 +23,21 @@ export const ContactUs = () => {
 
   return (
     
-    <section id='contact'>
-      <h5>Get In Touch</h5>
+    <section id='contact' className='contac-section'>
+      <h5 className='text-light'>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className='container contact__container'>
         
     {/* Req information Form */}
         <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
+          <label ><h5 className='text-light'>Name</h5></label>
         <input type="text" name="user_name" placeholder='   Your Full Name' required />
-      <label>Email</label>
+          <label><h5 className='text-light'>Email</h5></label>
         <input type="email" name="user_email" placeholder='  Your Email' required />
-      <label>Message</label>
+          <label><h5 className='text-light'>Message</h5></label>
         <textarea name="message"  placeholder=' Your Message' required />
-      <button type="submit" className='btn btn-primary'>Send Message</button>
+          <button type="submit" className='btn btn-primary text-light'>Send Message</button> 
       </form>
       </div>
       <a href="#foot" className='_scrollDN2'>Scroll Down</a> 

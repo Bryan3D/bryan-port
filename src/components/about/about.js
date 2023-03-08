@@ -28,7 +28,7 @@ const About = () => {
         </p>
       </div>
       <div className='about-btn'>
-        <a href="#contact" className='btn btn-primary'>More Info!</a>
+        <a href="#contact" className='btn btn-primary text-light'>More Info!</a>
       </div>
     </section>
   );

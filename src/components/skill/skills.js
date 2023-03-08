@@ -1,6 +1,6 @@
 import React from 'react'
 import SkillBar from 'react-skillbars';
-import './skills.css';
+import '../../styles.css'
 
 
 
@@ -37,8 +37,8 @@ const skills = () => {
   return (
     <section id='skills'>
     
-        <h5>Softwares Skills of Bryan A Quero</h5>
-        <h2>Skills</h2>
+      <h5 className='text-light'>Softwares Skills of Bryan A Quero</h5>
+      <h2>Skills</h2>
       <SkillBar skills={skills} height={'4vh'} colors={colors} />
     </section>
   )

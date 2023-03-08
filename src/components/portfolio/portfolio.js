@@ -17,7 +17,7 @@ import IMG12 from '../../assets/portfolio/portfUn2.png';
 const portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>A Portfolio of Bryan A Quero Work</h5>
+      <h5 className='text-light'>A Portfolio of Bryan A Quero Work</h5>
       <h2>Portfolio</h2>
    
 
