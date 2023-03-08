@@ -9,6 +9,7 @@
   - [Project description](#project-description)
   - [Installation and Test Instructions](#installation-and-test-instructions)
   - [React Portfolio Creation Demo Video and Images](#react-portfolio-creation-demo-video-and-images)
+  - [](#)
   - [Heroku React Portfolio Creation URL Link](#heroku-react-portfolio-creation-url-link)
 - [Click Here](#click-here)
   - [React Portfolio Creation URL Link](#react-portfolio-creation-url-link)
@@ -56,10 +57,12 @@ This project will provide individuals with a platform to showcase their skills a
 
 ## React Portfolio Creation Demo Video and Images
 ---
-
-
-
-
+![Alt text](src/assets/Readme/portRead%20(1).png)
+![Alt text](src/assets/Readme/portRead%20(2).png)
+![Alt text](src/assets/Readme/portRead%20(3).png)
+![Alt text](src/assets/Readme/portRead%20(4).png)
+![Alt text](src/assets/Readme/portRead%20(5).png)
+![Alt text](src/assets/Readme/portRead%20(6).png)
 ---
 ## Heroku React Portfolio Creation URL Link
 [Click Here](https://the-progressive-web-app.herokuapp.com/)
@@ -68,7 +71,7 @@ This project will provide individuals with a platform to showcase their skills a
 
 
 ## React Portfolio Creation URL Link
-[Click Here](https://bryan3d.github.io/Progressive-Web-Applications-PWA-Text-Editor/)
+[Click Here](https://bryan3d.github.io/bryan-portolio/)
 
 
 
