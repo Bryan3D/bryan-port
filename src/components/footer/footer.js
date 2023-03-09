@@ -8,7 +8,7 @@ const footer = () => {
     // Footer links Area for the page 
     <footer id='foot'>
       <ul className="footer-list">
-        <li><a href='#' className='text-light'>Home</a></li>
+        <li><a href='#home' className='text-light'>Home</a></li>
         <li><a href='#about' className='text-light'>About Me</a></li>
         <li><a href='#portfolio' className='text-light'>Portfolio</a></li>
         <li><a href='#skills' className='text-light'>Skills</a></li>
