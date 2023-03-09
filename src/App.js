@@ -1,6 +1,4 @@
 import React from 'react'
-import Particles from "react-particles";
-import PartclesBG from './components/particlesBg/partclesBG.js';
 import Headers from './components/header/header.js';
 import About from './components/about/about.js';
 import Nav from './components/nav/nav.js';
@@ -25,7 +23,7 @@ const App = () => {
       <Skills />
       <Contact />
       <Footer />
-      <PartclesBG />
+      
 
     </>
   )
