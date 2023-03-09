@@ -57,15 +57,17 @@ This project will provide individuals with a platform to showcase their skills a
 
 ## React Portfolio Creation Demo Video and Images
 ---
+[label](src/assets/video.mp4)
 ![Alt text](src/assets/Readme/portRead%20(1).png)
 ![Alt text](src/assets/Readme/portRead%20(2).png)
 ![Alt text](src/assets/Readme/portRead%20(3).png)
 ![Alt text](src/assets/Readme/portRead%20(4).png)
 ![Alt text](src/assets/Readme/portRead%20(5).png)
 ![Alt text](src/assets/Readme/portRead%20(6).png)
+![Alt text](src/assets/Readme/portRead(7).png)
 ---
 ## Heroku React Portfolio Creation URL Link
-[Click Here](https://the-progressive-web-app.herokuapp.com/)
+[Click Here](https://bryan-port.herokuapp.com/)
 =======
 
 
