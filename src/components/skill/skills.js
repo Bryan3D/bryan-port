@@ -34,6 +34,9 @@ const skills = () => {
     title: {
       text: "#E4E9E7",
       background: "rgba(77,181,255,0.4)"
+    },
+    typography: {
+      fontSize: 25,
     }
   };
   
@@ -44,7 +47,7 @@ const skills = () => {
     {/* Skills bars Title */}
       <h5 className='text-light'>Softwares Skills of Bryan A Quero</h5>
       <h2>Skills</h2>
-      <SkillBar skills={skills} height={'4vh'} colors={colors} />
+      <SkillBar skills={skills} height={'3vh'} width={'80%'} colors={colors}  fontSize={'14'} />
     </section>
   )
 }
