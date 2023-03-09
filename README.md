@@ -9,10 +9,9 @@
   - [Project description](#project-description)
   - [Installation and Test Instructions](#installation-and-test-instructions)
   - [React Portfolio Creation Demo Video and Images](#react-portfolio-creation-demo-video-and-images)
-  - [](#)
-  - [Heroku React Portfolio Creation URL Link](#heroku-react-portfolio-creation-url-link)
-- [Click Here](#click-here)
-  - [React Portfolio Creation URL Link](#react-portfolio-creation-url-link)
+  - [Netlify React Portfolio Creation URL Link](#netlify-react-portfolio-creation-url-link)
+  - [Portfolio website link](#portfolio-website-link)
+  - [Github React Portfolio Creation URL Link](#github-react-portfolio-creation-url-link)
   - [Inquire](#inquire)
   - [MIT License](#mit-license)
 
@@ -45,11 +44,13 @@ This project will provide individuals with a platform to showcase their skills a
 ## Installation and Test Instructions
 
 ---
-
-- Node
-- React 
-- Webpack
-- Heroku
+<div align = "center">
+  <img src=https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg width="20" height="20"/>  React
+ <img src="src/assets/Readme/icons8-node-js-48.png" width="20" height="20"/> Node Js
+  <img src="src/assets/Readme/icons8-webpack-48.png" width="20" height="20"/> Webpack 
+  <img src="src/assets/Readme/icons8-netlify.png" width="20" height="20"/> Netlify
+  <img src="src/assets/Readme/icons8-heroku-96.png" width="20" height="20"/> Heroku 
+</div>
 
 ---
   
@@ -57,23 +58,23 @@ This project will provide individuals with a platform to showcase their skills a
 
 ## React Portfolio Creation Demo Video and Images
 ---
-[label](src/assets/video.mp4)
 ![Alt text](src/assets/Readme/portRead%20(1).png)
 ![Alt text](src/assets/Readme/portRead%20(2).png)
 ![Alt text](src/assets/Readme/portRead%20(3).png)
 ![Alt text](src/assets/Readme/portRead%20(4).png)
 ![Alt text](src/assets/Readme/portRead%20(5).png)
 ![Alt text](src/assets/Readme/portRead%20(6).png)
-![Alt text](src/assets/Readme/portRead(7).png)
+
 ---
-## Heroku React Portfolio Creation URL Link
-[Click Here](https://bryan-port.herokuapp.com/)
-=======
+## Netlify React Portfolio Creation URL Link
+
+[Portfolio website link](https://bryanq.netlify.app/)
+---
 
 
 
-## React Portfolio Creation URL Link
-[Click Here](https://bryan3d.github.io/bryan-portolio/)
+## Github React Portfolio Creation URL Link
+[Github page Link](https://bryan3d.github.io/bryan-portolio/)
 
 
 
