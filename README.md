@@ -45,6 +45,7 @@ This project will provide individuals with a platform to showcase their skills a
 
 ---
 <div align = "center">
+
   <img src=https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg width="20" height="20"/>  React
  <img src="src/assets/Readme/icons8-node-js-48.png" width="20" height="20"/> Node Js
   <img src="src/assets/Readme/icons8-webpack-48.png" width="20" height="20"/> Webpack 
