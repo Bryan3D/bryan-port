@@ -7,7 +7,9 @@ import YO from '../../../src/assets/B.png'
 
 const Header = () => {
   return (
+    <section id='#home'>
     <header>
+      
       {/* this my header title */}
       <div className="container header-container">
         
@@ -26,8 +28,8 @@ const Header = () => {
      
       </div>
       
-
     </header>
+    </section>
   )
 }
 
